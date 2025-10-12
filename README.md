@@ -1,5 +1,4 @@
-# Elecrow CrowPanel - ESP32 4.2" E-Paper HMI Display
-
+<h1 align = "center">🌟NeuronEX🌟</h1>
 
 ---
 <p align="center">
@@ -20,29 +19,92 @@
 
 ---
 
-- [👨‍💻Thonny IDE](https://thonny.org/)
-- [📖Wiki](https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_4.2-inch_HMI_Display.html)
-- [#️⃣Image2CPP](https://javl.github.io/image2cpp/)
-- [🌦️OpenWeather](https://openweathermap.org)
-- [📥Arduino Code Example](https://www.elecrow.com/download/product/CrowPanel/E-paper/4.2-DIE07300S/Arduino/Examples.zip)
-- [📥Arduino Code for Demo](https://www.elecrow.com/download/product/CrowPanel/E-paper/4.2-DIE07300S/Arduino/Demos.zip)
-- [⭐Elecrow Referral Link for 5$ Coupon⭐](https://www.elecrow.com/referral-program/Nzk5MjJqMnQ/)
+$\color{Green}\Huge{\textbf{Basic}}$
+
+1. 🆓️How to Install NeuronEX - Industrial Edge Data Hub in Raspberry Pi (Arm64) [**[Watch]**](https://youtu.be/NMHx8b6lYpc)
+    - Code
+        
+        ```bash
+        # Download the NeuronEX package for ARM64 architecture from the EMQX website.
+        wget https://www.emqx.com/en/downloads/neuronex/v3.6.2/neuronex-3.6.2-linux-arm64.deb
+        
+        # Install the downloaded NeuronEX package using the Debian package manager.
+        sudo dpkg -i neuronex-3.3.2-linux-arm64.deb
+        
+        # Start the NeuronEX service immediately.
+        sudo systemctl start neuronex
+        
+        # Check the current status of the NeuronEX service to ensure it's running correctly.
+        sudo systemctl status neuronex
+        
+        # Stop the NeuronEX service.
+        sudo systemctl stop neuronex
+        
+        # Uninstall NeuronEX and remove all its associated files.
+        sudo dpkg -P neuronex
+        ```
+        
+2. 🆓️How to Run NeuronEX - Industrial Edge Data Hub in Docker using Virtuallabs.Online | [**[Watch]**](https://youtu.be/BXZvtEdxmGY)
+3. 🆓️How to Download, Install and Run NeuronEX - Industrial Edge Data Hub in Linux using Virtuallabs.Online [**[Watch]**](https://youtu.be/f_hkAeRHVuc)
+4. 🆓️Brief Understanding of the NeuronEX Edge Architecture, South Devices, North Apps, Etc **[[Watch]](https://youtu.be/LfSE4qA8-1g)**
+5. 🆓️How to Import and Export Southbound Device Configuration in NeuronEX **[[Watch]](https://youtu.be/Z2ttJgHXoEU)**
+
+##
+
+$\color{Green}\Huge{\textbf{Data Collection [**Southbound Device Communication**]}}$
+### OPC UA
+
+1. 🆓️How to Configure Southbound Device in NeuronEX to Connect with OPC-UA Server [**[Watch]**](https://youtu.be/Is3qyxh2fN8)
+    
+    [Prosys_OPCUA_Southbound_Device_NeuronEX.json](https://prod-files-secure.s3.us-west-2.amazonaws.com/1ff1d2b4-a772-427c-8fff-4a778059d21d/d34a6de4-cc3d-4af0-8ed1-1b3ae955d1a5/Prosys_OPCUA_Southbound_Device_NeuronEX.json)
+    
+2. ⏳️How to Configure Southbound Device in NeuronEX to Connect with N3uron Free Public OPC UA Server **[Watch]**
+    
+    [N3uron-Object-Model-DemoPVSite.xlsx](https://prod-files-secure.s3.us-west-2.amazonaws.com/1ff1d2b4-a772-427c-8fff-4a778059d21d/ffbb6be8-84ff-4555-b0cd-762ada93a60c/N3uron-Object-Model-DemoPVSite.xlsx)
+    
+
+### Modbus TCP/IP
+
+1. 🆓️How to Configure Southbound Device in NeuronEX to Connect with Modbus TCP/IP Device [**[Watch]**](https://youtu.be/XqCYdHgOyM4)
+    
+    [ModSim_Southbound_Device_NeuronEX.json](https://prod-files-secure.s3.us-west-2.amazonaws.com/1ff1d2b4-a772-427c-8fff-4a778059d21d/40526aab-a44f-426c-a7c9-fa0eae726854/ModSim_Southbound_Device_NeuronEX.json)
+    
+
+### Modbus RTU
+
+1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with Modbus RTU/RS485/Serial Device **[Watch]**
+
+### IEC60870-5-104
+
+1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with IEC60870-5-104 Device **[Watch]**
+
+### BACnet/IP
+
+1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with BACnet IP Device **[Watch]**
+
+### KNXnet/IP
+
+1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with KNXnet/IP Device **[Watch]**
 
 ---
 
+# Data Delivery [**North Apps**]
 
-$\color{Green}\Huge{\textbf{Shorts}}$
+### MQTT
 
-1. 🆓Unboxing Elecrow CrowPanel ESP32 4.2” E-paper HMI Display with 400*300 Resolution | DIE07300S | [[Watch]](https://youtube.com/shorts/f-3UW2KjgTg)
-2. 🆓Unscrewing Elecrow CrowPanel ESP32 4.2” E-paper HMI Display | ESP32 | E-Paper | IoT | CrowPanel | [[Watch]](https://youtube.com/shorts/2TcVsKXQdiw)
-3. 🆓Elecrow CrowPanel ESP32 4.2” E-paper HMI Display Demo | ESP32 | E-Paper | IoT | IIoT | CrowPanel | [[Watch]](https://youtube.com/shorts/4ExmBatFqBo)
+1. 🆓️How to Publish Data from Your Southbound Device (OPC-UA Server) to an MQTT Broker Using NeuronEX [**[Watch]**](https://youtu.be/PDsqWIF_MQ0)
 
-$\color{Green}\Huge{\textbf{Full Videos}}$
+### eKupier
 
-1. 🆓Elecrow CrowPanel ESP32 4.2” E-paper HMI Display Wifi_Http_Openweather Demo | ESP32 | E-Paper | IoT | IIoT | CrowPanel | [[Watch]](https://youtu.be/Arxx5Az528g)
-2. 🆓Elecrow CrowPanel ESP32 4.2” E-paper HMI Display Partial Refresh Demo | ESP32 | E-Paper | IoT | IIoT | CrowPanel | [[Watch]](https://youtu.be/N-Gtk1Eezy8)
-3. 🆓How to Build Weather Clock using Elecrow CrowPanel ESP32 4.2” E-paper HMI Display | ESP32 | E-Paper | IoT | IIoT | CrowPanel | [[Watch]](https://youtu.be/glicFgOt5Ew)
+### WebSocket
 
+### SparkplugB
+
+---
+
+# Administration
+
+1. 🆓️User Management (Create/Delete/Edit) in NeuronEX - Industrial Edge Data Hub Platform [**[Watch]**](https://youtu.be/mR8SU8FyUcU)
 ---
 
 <h1 align="center">📢 Reach Out to Us for Any Queries ⤵️</h1>
