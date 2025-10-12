@@ -57,18 +57,18 @@ $\color{Green}\Huge{\textbf{Data Collection [Southbound Device Communication]}}$
 
 1. 🆓️How to Configure Southbound Device in NeuronEX to Connect with OPC-UA Server [[Watch]](https://youtu.be/Is3qyxh2fN8)
     
-    [Prosys_OPCUA_Southbound_Device_NeuronEX.json](https://prod-files-secure.s3.us-west-2.amazonaws.com/1ff1d2b4-a772-427c-8fff-4a778059d21d/d34a6de4-cc3d-4af0-8ed1-1b3ae955d1a5/Prosys_OPCUA_Southbound_Device_NeuronEX.json)
+    [Prosys_OPCUA_Southbound_Device_NeuronEX.json](https://github.com/papercodeIN/NeuronEX/blob/main/Files/Prosys_OPCUA_Southbound_Device_NeuronEX.json)
     
 2. ⏳️How to Configure Southbound Device in NeuronEX to Connect with N3uron Free Public OPC UA Server [Watch]
     
-    [N3uron-Object-Model-DemoPVSite.xlsx](https://prod-files-secure.s3.us-west-2.amazonaws.com/1ff1d2b4-a772-427c-8fff-4a778059d21d/ffbb6be8-84ff-4555-b0cd-762ada93a60c/N3uron-Object-Model-DemoPVSite.xlsx)
+    [N3uron-Object-Model-DemoPVSite.xlsx](https://github.com/papercodeIN/NeuronEX/blob/main/Files/N3uron-Object-Model-DemoPVSite.xlsx)
     
 ##
 ### Modbus TCP/IP
 
 1. 🆓️How to Configure Southbound Device in NeuronEX to Connect with Modbus TCP/IP Device [[Watch]](https://youtu.be/XqCYdHgOyM4)
     
-    [ModSim_Southbound_Device_NeuronEX.json](https://prod-files-secure.s3.us-west-2.amazonaws.com/1ff1d2b4-a772-427c-8fff-4a778059d21d/40526aab-a44f-426c-a7c9-fa0eae726854/ModSim_Southbound_Device_NeuronEX.json)
+    [ModSim_Southbound_Device_NeuronEX.json](https://github.com/papercodeIN/NeuronEX/blob/main/Files/ModSim_Southbound_Device_NeuronEX.json)
     
 ##
 ### Modbus RTU
