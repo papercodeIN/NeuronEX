@@ -1,0 +1,95 @@
+{
+    "nodes": [
+        {
+            "groups": [
+                {
+                    "group": "Simulation",
+                    "interval": 100,
+                    "tags": [
+                        {
+                            "address": "3!1001",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "Constant",
+                            "precision": 0,
+                            "type": 10
+                        },
+                        {
+                            "address": "3!1002",
+                            "attribute": 1,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "Counter",
+                            "precision": 0,
+                            "type": 5
+                        },
+                        {
+                            "address": "3!1003",
+                            "attribute": 1,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "Random",
+                            "precision": 0,
+                            "type": 10
+                        },
+                        {
+                            "address": "3!1004",
+                            "attribute": 1,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "Sawtooth",
+                            "precision": 0,
+                            "type": 10
+                        },
+                        {
+                            "address": "3!1005",
+                            "attribute": 1,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "Sinusoid",
+                            "precision": 0,
+                            "type": 10
+                        },
+                        {
+                            "address": "3!1006",
+                            "attribute": 1,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "Square",
+                            "precision": 0,
+                            "type": 10
+                        },
+                        {
+                            "address": "3!1007",
+                            "attribute": 1,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "Triangle",
+                            "precision": 0,
+                            "type": 10
+                        }
+                    ]
+                }
+            ],
+            "name": "Prosys OPCUA Simulation Server",
+            "params": {
+                "cert": "",
+                "key": "",
+                "name": "Prosys OPCUA Simulation Server",
+                "password": "",
+                "plugin": "OPC UA",
+                "url": "opc.tcp://192.168.1.11:4840/OPCUA/SimulationServer",
+                "username": ""
+            },
+            "plugin": "OPC UA"
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "nodes": [
+        {
+            "groups": [
+                {
+                    "group": "HR",
+                    "interval": 500,
+                    "tags": [
+                        {
+                            "address": "1!40001",
+                            "attribute": 1,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR1",
+                            "precision": 0,
+                            "type": 3
+                        },
+                        {
+                            "address": "1!40002",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR2",
+                            "precision": 0,
+                            "type": 3
+                        },
+                        {
+                            "address": "1!40003",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR3",
+                            "precision": 0,
+                            "type": 3
+                        },
+                        {
+                            "address": "1!40004",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR4",
+                            "precision": 0,
+                            "type": 3
+                        },
+                        {
+                            "address": "1!40005",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR5",
+                            "precision": 0,
+                            "type": 3
+                        },
+                        {
+                            "address": "1!40006",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR6",
+                            "precision": 0,
+                            "type": 3
+                        },
+                        {
+                            "address": "1!40007",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR7",
+                            "precision": 0,
+                            "type": 3
+                        },
+                        {
+                            "address": "1!40008",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR8",
+                            "precision": 0,
+                            "type": 3
+                        },
+                        {
+                            "address": "1!40009",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR9",
+                            "precision": 0,
+                            "type": 3
+                        },
+                        {
+                            "address": "1!40010",
+                            "attribute": 3,
+                            "bias": 0,
+                            "decimal": 0,
+                            "description": "",
+                            "name": "HR10",
+                            "precision": 0,
+                            "type": 3
+                        }
+                    ]
+                }
+            ],
+            "name": "ModSim",
+            "params": {
+                "address_base": 1,
+                "check_header": 0,
+                "connection_mode": 0,
+                "endianess": 1,
+                "host": "192.168.1.11",
+                "interval": 500,
+                "max_retries": 3,
+                "name": "ModSim",
+                "plugin": "Modbus TCP",
+                "port": 502,
+                "retry_interval": 1000,
+                "timeout": 3000
+            },
+            "plugin": "Modbus TCP"
+        }
+    ]
+}
