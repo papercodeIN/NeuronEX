@@ -98,13 +98,13 @@ $\color{Green}\Huge{\textbf{Data Delivery [North Apps]}}$
 
 1. 🆓️How to Publish Data from Your Southbound Device (OPC-UA Server) to an MQTT Broker Using NeuronEX [[Watch]](https://youtu.be/PDsqWIF_MQ0)
 
-###
+##
 ### eKupier
 
-###
+##
 ### WebSocket
 
-###
+##
 ### SparkplugB
 
 ##
