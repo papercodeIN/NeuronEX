@@ -21,7 +21,7 @@
 
 $\color{Green}\Huge{\textbf{Basic}}$
 
-1. 🆓️How to Install NeuronEX - Industrial Edge Data Hub in Raspberry Pi (Arm64) [**[Watch]**](https://youtu.be/NMHx8b6lYpc)
+1. 🆓️How to Install NeuronEX - Industrial Edge Data Hub in Raspberry Pi (Arm64) [[Watch]](https://youtu.be/NMHx8b6lYpc)
     - Code
         
         ```bash
@@ -44,55 +44,54 @@ $\color{Green}\Huge{\textbf{Basic}}$
         sudo dpkg -P neuronex
         ```
         
-2. 🆓️How to Run NeuronEX - Industrial Edge Data Hub in Docker using Virtuallabs.Online | [**[Watch]**](https://youtu.be/BXZvtEdxmGY)
-3. 🆓️How to Download, Install and Run NeuronEX - Industrial Edge Data Hub in Linux using Virtuallabs.Online [**[Watch]**](https://youtu.be/f_hkAeRHVuc)
-4. 🆓️Brief Understanding of the NeuronEX Edge Architecture, South Devices, North Apps, Etc **[[Watch]](https://youtu.be/LfSE4qA8-1g)**
-5. 🆓️How to Import and Export Southbound Device Configuration in NeuronEX **[[Watch]](https://youtu.be/Z2ttJgHXoEU)**
+2. 🆓️How to Run NeuronEX - Industrial Edge Data Hub in Docker using Virtuallabs.Online | [[Watch]](https://youtu.be/BXZvtEdxmGY)
+3. 🆓️How to Download, Install and Run NeuronEX - Industrial Edge Data Hub in Linux using Virtuallabs.Online [[Watch]](https://youtu.be/f_hkAeRHVuc)
+4. 🆓️Brief Understanding of the NeuronEX Edge Architecture, South Devices, North Apps, Etc [[Watch]](https://youtu.be/LfSE4qA8-1g)
+5. 🆓️How to Import and Export Southbound Device Configuration in NeuronEX [[Watch]](https://youtu.be/Z2ttJgHXoEU)
 
 ##
 
-$\color{Green}\Huge{\textbf{Data Collection [**Southbound Device Communication**]}}$
+$\color{Green}\Huge{\textbf{Data Collection [Southbound Device Communication]}}$
 ### OPC UA
 
-1. 🆓️How to Configure Southbound Device in NeuronEX to Connect with OPC-UA Server [**[Watch]**](https://youtu.be/Is3qyxh2fN8)
+1. 🆓️How to Configure Southbound Device in NeuronEX to Connect with OPC-UA Server [[Watch]](https://youtu.be/Is3qyxh2fN8)
     
     [Prosys_OPCUA_Southbound_Device_NeuronEX.json](https://prod-files-secure.s3.us-west-2.amazonaws.com/1ff1d2b4-a772-427c-8fff-4a778059d21d/d34a6de4-cc3d-4af0-8ed1-1b3ae955d1a5/Prosys_OPCUA_Southbound_Device_NeuronEX.json)
     
-2. ⏳️How to Configure Southbound Device in NeuronEX to Connect with N3uron Free Public OPC UA Server **[Watch]**
+2. ⏳️How to Configure Southbound Device in NeuronEX to Connect with N3uron Free Public OPC UA Server [Watch]
     
     [N3uron-Object-Model-DemoPVSite.xlsx](https://prod-files-secure.s3.us-west-2.amazonaws.com/1ff1d2b4-a772-427c-8fff-4a778059d21d/ffbb6be8-84ff-4555-b0cd-762ada93a60c/N3uron-Object-Model-DemoPVSite.xlsx)
     
 
 ### Modbus TCP/IP
 
-1. 🆓️How to Configure Southbound Device in NeuronEX to Connect with Modbus TCP/IP Device [**[Watch]**](https://youtu.be/XqCYdHgOyM4)
+1. 🆓️How to Configure Southbound Device in NeuronEX to Connect with Modbus TCP/IP Device [[Watch]](https://youtu.be/XqCYdHgOyM4)
     
     [ModSim_Southbound_Device_NeuronEX.json](https://prod-files-secure.s3.us-west-2.amazonaws.com/1ff1d2b4-a772-427c-8fff-4a778059d21d/40526aab-a44f-426c-a7c9-fa0eae726854/ModSim_Southbound_Device_NeuronEX.json)
     
 
 ### Modbus RTU
 
-1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with Modbus RTU/RS485/Serial Device **[Watch]**
+1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with Modbus RTU/RS485/Serial Device [Watch]
 
 ### IEC60870-5-104
 
-1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with IEC60870-5-104 Device **[Watch]**
+1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with IEC60870-5-104 Device [Watch]
 
 ### BACnet/IP
 
-1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with BACnet IP Device **[Watch]**
+1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with BACnet IP Device [Watch]
 
 ### KNXnet/IP
 
-1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with KNXnet/IP Device **[Watch]**
+1. ⏳️How to Connect NeuronEX - Industrial Edge Data Hub with KNXnet/IP Device [Watch]
 
----
-
-# Data Delivery [**North Apps**]
+##
+$\color{Green}\Huge{\textbf{Data Delivery [North Apps]}}$
 
 ### MQTT
 
-1. 🆓️How to Publish Data from Your Southbound Device (OPC-UA Server) to an MQTT Broker Using NeuronEX [**[Watch]**](https://youtu.be/PDsqWIF_MQ0)
+1. 🆓️How to Publish Data from Your Southbound Device (OPC-UA Server) to an MQTT Broker Using NeuronEX [[Watch]](https://youtu.be/PDsqWIF_MQ0)
 
 ### eKupier
 
@@ -100,11 +99,10 @@ $\color{Green}\Huge{\textbf{Data Collection [**Southbound Device Communication**
 
 ### SparkplugB
 
----
+##
+$\color{Green}\Huge{\textbf{Administration}}$
 
-# Administration
-
-1. 🆓️User Management (Create/Delete/Edit) in NeuronEX - Industrial Edge Data Hub Platform [**[Watch]**](https://youtu.be/mR8SU8FyUcU)
+1. 🆓️User Management (Create/Delete/Edit) in NeuronEX - Industrial Edge Data Hub Platform [[Watch]](https://youtu.be/mR8SU8FyUcU)
 ---
 
 <h1 align="center">📢 Reach Out to Us for Any Queries ⤵️</h1>
